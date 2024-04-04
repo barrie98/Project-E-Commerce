@@ -1,0 +1,42 @@
+/* These are the styles for Footer Section */
+.footer {
+    height: 250px;
+    background-color: rgb(34, 34, 34);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    font-family: 'Noticia Text';
+}
+
+.products, .services, .follow-us {
+    color: white;
+    margin-left: 20px;
+}
+.products, .services {
+    display: inline-flex;
+    flex-direction: column;
+}
+.products .product-title, .services .service-title, .follow-us-title {
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.follow-us-title {
+    font-style: italic;
+}
+.products a, .services a, .follow-us a  {
+    text-decoration: none;
+    color: white;
+    line-height: 25px;
+}
+.products a:hover, .services a:hover, .follow-us a:hover {
+    color: rgb(0, 132, 214);
+}
+.follow-us a {
+    display: inline-block;
+    margin-right: 10px;
+    margin-top: 10px;
+    font-size: 25px;
+}
+.follow-us {
+    color: white;
+}
